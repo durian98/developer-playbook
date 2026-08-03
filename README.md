@@ -51,6 +51,8 @@
 
 - [테스트 실행 환경과 이미지 빌드 책임 분리](cases/ci-test-and-image-build-boundary.md)
 - [이벤트 수신 범위와 빌드 대상 분리](cases/webhook-trigger-and-build-scope.md)
+- [시연 UI는 실제 이벤트 파이프라인을 호출한다](cases/demo-actions-through-real-pipelines.md)
+- [웹훅의 전송 형식과 목적지를 분리 검증한다](cases/webhook-contract-and-routing.md)
 
 ## 프로젝트 경험을 옮길 때
 
