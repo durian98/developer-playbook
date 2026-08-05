@@ -53,6 +53,8 @@
 - [이벤트 수신 범위와 빌드 대상 분리](cases/webhook-trigger-and-build-scope.md)
 - [시연 UI는 실제 이벤트 파이프라인을 호출한다](cases/demo-actions-through-real-pipelines.md)
 - [웹훅의 전송 형식과 목적지를 분리 검증한다](cases/webhook-contract-and-routing.md)
+- [배포 준비 상태와 운영 의존성 상태 분리](cases/deployment-readiness-and-operational-health.md)
+- [실시간 알림과 영속 이벤트의 생명주기 분리](cases/notification-lifecycle-and-event-history.md)
 
 ## 프로젝트 경험을 옮길 때
 
