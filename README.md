@@ -55,6 +55,10 @@
 - [웹훅의 전송 형식과 목적지를 분리 검증한다](cases/webhook-contract-and-routing.md)
 - [배포 준비 상태와 운영 의존성 상태 분리](cases/deployment-readiness-and-operational-health.md)
 - [실시간 알림과 영속 이벤트의 생명주기 분리](cases/notification-lifecycle-and-event-history.md)
+- [장치 이벤트 판정 교체는 Shadow 검증 뒤 전환](cases/device-event-cutover-with-shadow-mode.md)
+- [공개 진입점과 서비스 노출 경계를 함께 설계](cases/public-ingress-and-service-exposure.md)
+- [혼합 센서 조준은 판정과 정지 기준을 분리](cases/visual-servoing-sensor-and-control-boundary.md)
+- [장기 실행 하위 프로세스는 소유권과 종료 경계를 둔다](cases/subprocess-lifecycle-and-process-group-cleanup.md)
 
 ## 프로젝트 경험을 옮길 때
 
