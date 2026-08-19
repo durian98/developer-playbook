@@ -49,6 +49,7 @@
 
 ## 현재 사례
 
+- [엣지 모델 선택은 정확도와 실제 실행 경로 비용을 함께 고정](cases/edge-model-selection-and-runtime-budget.md)
 - [테스트 실행 환경과 이미지 빌드 책임 분리](cases/ci-test-and-image-build-boundary.md)
 - [이벤트 수신 범위와 빌드 대상 분리](cases/webhook-trigger-and-build-scope.md)
 - [시연 UI는 실제 이벤트 파이프라인을 호출한다](cases/demo-actions-through-real-pipelines.md)
