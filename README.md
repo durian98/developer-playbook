@@ -49,6 +49,7 @@
 
 ## 현재 사례
 
+- [업무 완료 상태는 검증된 전달 결과와 연결](cases/ticket-to-deployment-traceability.md)
 - [엣지 모델 선택은 정확도와 실제 실행 경로 비용을 함께 고정](cases/edge-model-selection-and-runtime-budget.md)
 - [테스트 실행 환경과 이미지 빌드 책임 분리](cases/ci-test-and-image-build-boundary.md)
 - [이벤트 수신 범위와 빌드 대상 분리](cases/webhook-trigger-and-build-scope.md)
