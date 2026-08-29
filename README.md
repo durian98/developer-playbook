@@ -49,6 +49,10 @@
 
 ## 정리된 사례
 
+- [재시도 멱등성의 최종 방어는 데이터베이스 불변조건에 둔다](cases/idempotency-at-database-boundary.md)
+- [비동기 처리는 큐의 상한과 포화 동작까지 함께 결정한다](cases/bounded-async-backpressure.md)
+- [전송 채널은 기술 이름보다 메시지의 실패 조건으로 나눈다](cases/transport-by-message-semantics.md)
+- [오프라인 평가는 운영 입력의 원본성과 시간축부터 고정한다](cases/offline-evaluation-input-provenance.md)
 - [업무 완료 상태는 검증된 전달 결과와 연결](cases/ticket-to-deployment-traceability.md)
 - [엣지 모델 선택은 정확도와 실제 실행 경로 비용을 함께 고정](cases/edge-model-selection-and-runtime-budget.md)
 - [테스트 실행 환경과 이미지 빌드 책임 분리](cases/ci-test-and-image-build-boundary.md)
@@ -59,8 +63,8 @@
 - [실시간 알림과 영속 이벤트의 생명주기 분리](cases/notification-lifecycle-and-event-history.md)
 - [장치 이벤트 판정 교체는 Shadow 검증 뒤 전환](cases/device-event-cutover-with-shadow-mode.md)
 - [공개 진입점과 서비스 노출 경계를 함께 설계](cases/public-ingress-and-service-exposure.md)
-- [혼합 센서 조준은 판정과 정지 기준을 분리](cases/visual-servoing-sensor-and-control-boundary.md)
-- [장기 실행 하위 프로세스는 소유권과 종료 경계를 둔다](cases/subprocess-lifecycle-and-process-group-cleanup.md)
+- [혼합 센서 조준의 판정·정지 경계 검증 계획](cases/visual-servoing-sensor-and-control-boundary.md)
+- [하위 프로세스 적층 문제의 진단·검증 계획](cases/subprocess-lifecycle-and-process-group-cleanup.md)
 
 ## 새 경험을 추가할 때
 
