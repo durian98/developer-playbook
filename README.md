@@ -65,6 +65,13 @@
 - [공개 진입점과 서비스 노출 경계를 함께 설계](cases/public-ingress-and-service-exposure.md)
 - [혼합 센서 조준의 판정·정지 경계 검증 계획](cases/visual-servoing-sensor-and-control-boundary.md)
 - [하위 프로세스 적층 문제의 진단·검증 계획](cases/subprocess-lifecycle-and-process-group-cleanup.md)
+- [순서 보장 범위를 key 단위로 줄여 병렬성을 얻는다](cases/keyed-partitioned-fifo.md)
+- [소셜 가입 단계는 서버 보관 1회용 티켓으로 잇는다](cases/oauth-signup-ticket-and-transaction-boundary.md)
+- [보안 정책과 실제 라우트는 양방향 계약으로 검사한다](cases/authorization-policy-and-route-drift.md)
+- [마이그레이션 순서와 적용 파일의 불변성을 배포 전에 확인한다](cases/migration-order-and-applied-file-immutability.md)
+- [정적 프런트 설정은 번들 생성 시 주입하고 결과를 검사한다](cases/build-time-frontend-config-and-bundle-verification.md)
+- [refresh token 경쟁 재시도와 재사용 공격을 구분한다](cases/refresh-token-reuse-race-and-grace.md)
+- [요청 본문의 사용자 ID 대신 인증 주체를 신뢰한다](cases/authenticated-principal-over-request-identity.md)
 
 ## 새 경험을 추가할 때
 
