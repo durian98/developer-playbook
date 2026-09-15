@@ -72,6 +72,7 @@
 - [정적 프런트 설정은 번들 생성 시 주입하고 결과를 검사한다](cases/build-time-frontend-config-and-bundle-verification.md)
 - [refresh token 경쟁 재시도와 재사용 공격을 구분한다](cases/refresh-token-reuse-race-and-grace.md)
 - [요청 본문의 사용자 ID 대신 인증 주체를 신뢰한다](cases/authenticated-principal-over-request-identity.md)
+- [현재 상태는 하나의 재시작 진입점이 소유한다](cases/single-restart-entrypoint-and-context-ownership.md)
 
 ## 새 경험을 추가할 때
 
